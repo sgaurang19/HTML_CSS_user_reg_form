@@ -99,6 +99,7 @@ const validation = () =>{
     // for case 1: length
     checkUsername(username);
 
+    
     //for case 2: email
     // checkEmail(email);
 
