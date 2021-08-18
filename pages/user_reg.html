@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registrartion</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+<body>
+    <div align="center">
+        <div style="width: 600px;"><h1 align = "center">User Registrartion</h1><hr>
+    <form method="POST" autocomplete="off">
+    
+    <div  align="left" class ="formDesign">
+        <div class = "form-control">
+            <label for="username">Username</label>
+            <input type="text" placeholder="username" id="username" oninput="checkUsername()">
+            <small></small>
+            <hr>
+        </div>
+        <div class = "form-control">
+            <label for="email">Email</label>
+            <input type="text" placeholder="email" id="email">
+            <small></small><hr>
+        </div>
+        <div class = "form-control">
+            <label for="password">Password</label>
+            <input type="text" placeholder="Password" id="password">
+            <small></small><hr>
+        </div>
+        <div class = "form-control">
+            <label for="password2">Confirm Password</label>
+            <input type="text" placeholder="Confirm Password" id="password2">
+            <small></small><hr>
+        </div>
+        <br>
+        <div align="center">
+            <button type="reset" class="resButton" > Reset </button>
+            <button type="button" onclick="validation()" id="submit"> Validate and Submit </button>
+        </div>
+
+    </div>
+    </form><hr>
+    </div>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="../js/valid.js"></script>
+
+</body>
+</html>
