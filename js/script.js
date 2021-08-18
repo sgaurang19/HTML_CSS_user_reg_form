@@ -101,7 +101,7 @@ const validation = () =>{
 
     
     //for case 2: email
-    // checkEmail(email);
+    checkEmail(email);
 
     // checkPassword(password);
     // checkPassword(password2);
